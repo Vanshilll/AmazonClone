@@ -267,8 +267,107 @@ ul a{
     padding-top: 5px;
 }
 
+/** Respnsive **/
 
+@media(max-width:415px){
+    .logo{
+        height: 39px;
+        width: 71px;
+    }
 
+    .add-first{
+        font-size: 0.55rem;
+        margin-left: -2px;
+    }
+
+    .fa-solid, .fas{
+        font-weight: 501;
+    }
+
+    .add-second {
+        font-size: 0.75rem;
+        margin-top: 1px;
+        margin-left: 2px;
+    }
+
+    .nav-search{
+        width: 220px;
+    }
+
+    .search-select{
+        width: 36px;
+    }
+
+    .search-input{
+        width: 94%;
+        font-size: 12px;
+    }
+
+    .nav-signin p span{
+        font-size: 8px;
+        justify-content: center;
+    }
+
+    .nav-second{
+        font-size: 0.55rem;
+        font-weight: 600;
+    }
+
+    .nav-return p span{
+        font-size: 0.8rem;
+    }
+
+    .nav-cart{
+        font-size: 0.65rem;
+    }
+
+    .nav-cart i{
+        font-size: 17px;
+    }
+
+    .panel-ops{
+        width:169%;
+        font-size:0.7rem;
+    }
+
+    .panel-ops p{
+        margin: 4px;
+    }
+
+    .panel-deals{
+        font-size:0.65rem;
+        font-weight: 500;
+    }
+
+    .hero-section{
+        height: 220px;
+        margin-left: -102px;
+    }
+
+    .hero-msg{
+        height: 30px;
+        font-size: 0.75rem;
+        width: 79%;
+        margin-left: 102px;
+    }
+
+    .box{
+        height:220px;
+        width: 48%;
+    }
+
+    .box-img{
+        height: 135px;
+    }
+
+    .foot-panel2{
+        height: 504px;
+    }
+
+    .foot-panel3{
+        height: 53px;
+    }
+}
 
 
 
